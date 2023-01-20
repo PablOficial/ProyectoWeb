@@ -1,0 +1,18 @@
+span{
+    background-image: linear-gradient(to right, #CC0594, #3733f5, 
+    #6133f5, #8533f5, #bc33f5, #CC0594);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  
+  background-size: 300%;
+  background-position: -100%;  
+  
+  animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+    to{
+      background-position: 100%; 
+    }
+  }
